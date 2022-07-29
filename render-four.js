@@ -10,7 +10,7 @@ export function renderPorsche(cars) {
     const yearEl = document.createElement('p');
 
     makeEl.textContent = cars.make;
-    modelEl.textContent = cars.make;
+    modelEl.textContent = cars.model;
     colorRedEl.textContent = cars.colors[0];
     colorBlueEl.textContent = cars.colors[1];
     colorWhiteEl.textContent = cars.colors[2];

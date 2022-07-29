@@ -8,9 +8,13 @@ import { carsTwo } from './array-cars-two.js';
 import { renderAudi } from './render-three.js';
 import { carsThree } from './array-cars-three.js';
 
+import { renderPorsche } from './render-four.js';
+import { carsFour } from './array-cars-four.js';
+
 const carListEl = document.getElementById('car-list');
 const carTwoEl = document.getElementById('car-list-two');
 const carsThreeEl = document.getElementById('car-list-three');
+const carFourEl = document.getElementById('car-list-four');
 
 for (let car of cars) {
     const singleCar = renderCar(car);
@@ -28,6 +32,10 @@ for (let boxcar of carsThree) {
     carsThreeEl.append(boxcars);
 }
 
+for (let porsche of carsFour) {
+    const porsches = renderPorsche(porsche);
+    carFourEl.append(porsches);
+}
 
 
 

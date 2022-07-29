@@ -1,46 +1,46 @@
 export const carsFour = [
     {
-        make: 'Porsche',
-        model: '911-Turbo-S',
+        make: 'Make: Porsche',
+        model: 'Model: 911-Turbo-S',
         colors: [
             'Red',
             'Blue',
             'White',
             'Green',
         ],
-        year: '2022'
+        year: 'Year: 2022'
     },
     {
-        make: 'Audi',
-        model: 'R8',
+        make: 'Make: Audi',
+        model: 'Model: R8',
         colors: [
             'Red',
             'Blue',
             'White',
             'Green',
         ],
-        year: '2022'
+        year: 'Year 2022'
     },
     {
-        make: 'Volkswagen',
-        model: 'Golf-R',
+        make: 'Make: Volkswagen',
+        model: 'Model: Golf-R',
         colors: [
             'Red',
             'Blue',
             'White',
             'Green',
         ],
-        year: '2022'
+        year: 'Year: 2022'
     },
     {
-        make: 'Ford',
-        model: 'GT',
+        make: 'Make: Ford',
+        model: 'Model: GT',
         colors: [
             'Red',
             'Blue',
             'White',
             'Green',
         ],
-        year: '2022'
+        year: 'Year: 2022'
     }
 ];
