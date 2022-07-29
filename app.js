@@ -5,9 +5,12 @@ import { renderCar } from './render-car.js';
 import { renderBrand } from './car-two-render.js';
 import { carsTwo } from './array-cars-two.js';
 
+import { renderAudi } from './render-three.js';
+import { carsThree } from './array-cars-three.js';
+
 const carListEl = document.getElementById('car-list');
 const carTwoEl = document.getElementById('car-list-two');
-
+const carsThreeEl = document.getElementById('car-list-three');
 
 for (let car of cars) {
     const singleCar = renderCar(car);
@@ -20,7 +23,10 @@ for (let brand of carsTwo) {
     carTwoEl.append(carbrandEl);
 }
 
-
+for (let boxcar of carsThree) {
+    const boxcars = renderAudi(boxcar);
+    carsThreeEl.append(boxcars);
+}
 
 
 
