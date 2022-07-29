@@ -1,1 +1,30 @@
 /* add home page styles here */
+
+.car {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 15px;
+    border: solid 5px black;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+#car-list {
+    display: flex;
+    box-sizing: border-box;
+    margin: 15px;
+    border: solid 15px black;
+    justify-content: center;
+}  
+
+#car-list-two {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 15px;
+    justify-content: space-evenly;
+    border: solid 15px black;
+
+}
