@@ -6,7 +6,7 @@ export const carsFour = [
             'Red',
             'Blue',
             'White',
-            'Green',
+            'Yellow',
         ],
         year: 'Year: 2022'
     },
@@ -17,7 +17,7 @@ export const carsFour = [
             'Red',
             'Blue',
             'White',
-            'Green',
+            'Yellow',
         ],
         year: 'Year 2022'
     },
@@ -28,7 +28,7 @@ export const carsFour = [
             'Red',
             'Blue',
             'White',
-            'Green',
+            'Yellow',
         ],
         year: 'Year: 2022'
     },
@@ -39,7 +39,7 @@ export const carsFour = [
             'Red',
             'Blue',
             'White',
-            'Green',
+            'Yellow',
         ],
         year: 'Year: 2022'
     }

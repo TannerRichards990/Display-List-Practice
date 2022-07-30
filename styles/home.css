@@ -49,3 +49,15 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
+.car-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+
+
+}
+
