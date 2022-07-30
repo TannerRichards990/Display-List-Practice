@@ -30,6 +30,11 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+
+
+
+
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -96,3 +101,5 @@ footer {
     }
 
   }
+
+

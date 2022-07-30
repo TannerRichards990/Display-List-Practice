@@ -1,1 +1,63 @@
 /* add home page styles here */
+
+.car {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 15px;
+    border: solid 5px black;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+#car-list {
+    display: flex;
+    box-sizing: border-box;
+    margin: 15px;
+    border: solid 15px black;
+    justify-content: center;
+}  
+
+#car-list-two {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 15px;
+    justify-content: space-evenly;
+    border: solid 15px black;
+
+}
+
+.car-two div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: space-around;
+align-items: center;
+
+}
+
+.booger{
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.car-three, h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+
+
+}
+
